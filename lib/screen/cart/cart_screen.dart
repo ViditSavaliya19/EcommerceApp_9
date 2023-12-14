@@ -31,8 +31,8 @@ class _CartScreenState extends State<CartScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Cart"),
-          centerTitle: true,
+          title: const Text("My Cart"),
+          centerTitle: false,
         ),
         body: Stack(
           children: [
