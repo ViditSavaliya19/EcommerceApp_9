@@ -21,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: orange,
           title: const Text("Ecommerce"),
           centerTitle: true,
           actions: [
